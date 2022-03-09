@@ -15,6 +15,10 @@ The chips are already sourced and live on their breakout boards. The PCB is main
 
 The Raspberry Pi connector is only 20 pin wide because only the first few are used (5V, 3.3, SDA, SCL, GND)
 
+There is a spurious bug, all relays are ON when the 16 relay board is powered but the Raspberry (that powers the rest of the circuits) is OFF. So, a solid state relay is used to cut power to the relay board when the RaPi is shutted down.
+
+With the exception of ADCs, the schema and design choices follow the existing (4 years old) system.
+
 This repo is mainly for reviewing purposes.
 
 
@@ -41,6 +45,8 @@ https://www.adafruit.com/product/1085
 Some ADC "watch" only for presence/absence of 5V power but some are listenting to CT sensors.
 Quasi similar model: https://www.seeedstudio.com/Non-invasive-AC-Current-Sensor-30A-ma-p-519.html
 
+### Solid state relay:
+https://www.tme.eu/en/details/dmo063/dc-solid-state-relays/crydom/
 
 
 Add comments here (as git issues) or on EEVBlog.
