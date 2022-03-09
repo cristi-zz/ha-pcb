@@ -1,0 +1,5 @@
+*.bak
+*.csv
+*.tsv
+*.xml
+*-backups
