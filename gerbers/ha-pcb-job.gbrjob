@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "6.0.2-378541a8eb~116~ubuntu20.04.1"
     },
-    "CreationDate": "2022-03-11T14:48:04+02:00"
+    "CreationDate": "2022-03-11T17:06:48+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -46,6 +46,11 @@
     {
       "Path": "ha-pcb-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ha-pcb-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
