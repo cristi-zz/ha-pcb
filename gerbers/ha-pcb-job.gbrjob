@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "6.0.2-378541a8eb~116~ubuntu20.04.1"
     },
-    "CreationDate": "2022-03-09T13:41:16+02:00"
+    "CreationDate": "2022-03-11T14:48:04+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "ha-pcb",
       "GUID": "68612d70-6362-42e6-9b69-6361645f7063",
-      "Revision": "0"
+      "Revision": "4"
     },
     "Size": {
       "X": 137.26,
-      "Y": 111.86
+      "Y": 110.844
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -46,11 +46,6 @@
     {
       "Path": "ha-pcb-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ha-pcb-B_Silkscreen.gbr",
-      "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
