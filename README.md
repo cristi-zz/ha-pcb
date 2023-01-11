@@ -20,6 +20,9 @@ There is a spurious bug, all relays are ON when the 16 relay board is powered bu
 With the exception of ADCs, the schema and design choices follow the existing (4 years old) system.
 
 This repo is mainly for reviewing purposes.
+
+**The story behind this PCB is on [www.visoft.ro](https://www.visoft.ro/beginner/expanding-the-stack-designing-a-pcb/2372/)**
+
 ![PCB image with copper layers](https://github.com/cristi-zz/ha-pcb/blob/master/pdfs/PCB_screenshot.png?raw=true)
 
 A list with the devices
