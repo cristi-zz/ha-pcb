@@ -1,5 +1,7 @@
 ## Home automation PCB
 
+The story behind this, can be found [on my blog](https://visoft.ro/hello/expanding-the-stack-designing-a-pcb/2023/01/11/)
+
 It will hold a series of breakout boards for I2C IO expanders, 1Wire drivers, ADCs. All are controlled with a Raspberry Pi 3B+.
 
 The 220V actuators are controlled by a board with 16 mechanical relays. The board is in turn controlled by PCF8575 chip that takes I2C commands and controls 16 I/O pins. Board is active on low (optocouplers), PCF8575 can sink more current (than it could source). Perfect match.
